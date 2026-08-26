@@ -1,0 +1,26 @@
+cases:
+  vote:
+    name: '&6Кейс голосования'
+    pity: 10
+    rewards:
+      coins:
+        name: '&e1 000 монет'
+        rarity: COMMON
+        weight: 70
+        material: GOLD_NUGGET
+        commands:
+          - 'eco give {player} 1000'
+      diamonds:
+        name: '&b16 алмазов'
+        rarity: RARE
+        weight: 25
+        material: DIAMOND
+        commands:
+          - 'give {player} diamond 16'
+      rank:
+        name: '&dVIP на 30 дней'
+        rarity: LEGENDARY
+        weight: 5
+        material: NETHER_STAR
+        commands:
+          - 'lp user {player} parent addtemp vip 30d'

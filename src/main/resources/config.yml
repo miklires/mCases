@@ -1,0 +1,11 @@
+config-version: 1
+opening:
+  animation-ticks: 40
+simulation:
+  maximum-rolls: 1000000
+metrics:
+  enabled: true
+  bstats-id: 0
+updates:
+  enabled: true
+  modrinth-project-id: ''
