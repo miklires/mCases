@@ -1,0 +1,19 @@
+name: mCases
+version: ${version}
+main: io.github.miklires.mcases.MCasesPlugin
+api-version: '26.2'
+author: miklires
+description: Reliable configurable reward cases for modern Paper servers
+folia-supported: true
+softdepend: [Vault, mCraft, mBadges, mColor, PlaceholderAPI]
+libraries:
+  - com.h2database:h2:2.3.232
+permissions:
+  mcases.use: { default: true }
+  mcases.simulate: { default: op }
+  mcases.reload: { default: op }
+  mcases.admin:
+    default: op
+    children:
+      mcases.simulate: true
+      mcases.reload: true
