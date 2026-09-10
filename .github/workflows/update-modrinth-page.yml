@@ -17,7 +17,7 @@ jobs:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           PROJECT_NAME: mCases
           SUMMARY: 'Reliable reward cases with GUI, block-orbit, and interactive chest opening modes for Paper, Purpur, and Folia.'
-          CATEGORIES: '["minigame","economy"]'
+          CATEGORIES: '["economy","minigame"]'
           ADDITIONAL_CATEGORIES: '["game-mechanics"]'
           WIKI_URL: ''
         run: |
