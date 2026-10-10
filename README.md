@@ -21,7 +21,7 @@
 ## Requirements
 
 - Java 25
-- Paper, Purpur or Folia 26.2
+- Paper, Purpur or Folia 26.3
 
 Vault, mCraft, mBadges, mColor and PlaceholderAPI are optional integration targets. The base plugin does not require them.
 

@@ -1,7 +1,7 @@
 name: mCases
 version: ${version}
 main: io.github.miklires.mcases.MCasesPlugin
-api-version: '26.2'
+api-version: '26.3'
 author: miklires
 description: Reliable configurable reward cases for modern Paper servers
 folia-supported: true
