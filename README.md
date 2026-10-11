@@ -27,7 +27,7 @@ Vault, mCraft, mBadges, mColor and PlaceholderAPI are optional integration targe
 
 ## Install
 
-1. Put `mCases-1.0.0.jar` in `plugins`.
+1. Put `mCases-1.0.1.jar` in `plugins`.
 2. Start the server once.
 3. Edit `plugins/mCases/cases.yml` and reload with `/case reload`.
 
